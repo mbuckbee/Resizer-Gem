@@ -6,7 +6,7 @@ module Resizer
     @base_uri = 'https://resizer.expeditedaddons.com'
 
     # Your API Key
-    @api_key = 'TODO: Replace'
+    @api_key = ENV['RESIZER_API_KEY']
 
     # create the getters and setters
     class << self
